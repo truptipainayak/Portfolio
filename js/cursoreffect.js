@@ -3,6 +3,7 @@ var _CONTENT = [
 	"UI/UX Developer",
 	"Graphic Designer",
 	"Marketing Enthusiast",
+	
 ];
 
 // Current sentence being processed

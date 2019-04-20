@@ -272,6 +272,10 @@ a:hover, a:active, a:focus {
   text-align: center;
 }
 
+/* .font{
+	font-size:50px !important
+} */
+
 .main-home {
   background: url('../images/home.jpg') no-repeat;
   height: 100vh;
@@ -313,11 +317,11 @@ a:hover, a:active, a:focus {
   border-radius: 100px;
   color: #444;
   font-family: 'Merriweather', serif;
-  font-size: 10px;
+  font-size: 10px !important;
   font-weight: bold;
   letter-spacing: 2px;
   text-transform: uppercase;
-  padding: 13px 22px;
+  padding: 13px 22px !important;
   margin-top: 42px;
   transition: all 0.4s ease-in-out;
 }
@@ -785,4 +789,96 @@ footer .footer-copyright {
     padding-top: 60px;
     padding-bottom: 60px;
   }
+}
+
+@media (min-width: 300px) {
+    .main-home {
+			  background: url('../images/homesmall.jpg') no-repeat;
+
+    }
+		h3{
+			font-size: 15px !important;
+		}
+		/* .col-md-12{
+			position:fixed;
+			margin-bottom: 20px;
+		} */
+
+		#home .btn {
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 100px;
+    color: #444;
+    font-family: 'Merriweather', serif;
+    font-size: 5px !important;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 7px 11px !important;
+    margin-top: 20px;
+    transition: all 0.4s ease-in-out;
+}
+	/* .container{
+		position:absolute !important;
+
+	} */
+}
+
+/* @media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait){
+	background: red;
+} */
+
+@media (min-width: 500px) {
+	.main-home {
+			background: url('../images/home.jpg') no-repeat;
+
+	}
+
+	h3{
+		font-size: 25px !important;
+	}
+
+	#home .btn {
+		background: #ffffff;
+		border: 2px solid #ffffff;
+		border-radius: 100px;
+		color: #444;
+		font-family: 'Merriweather', serif;
+		font-size: 10px !important;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding: 13px 22px !important;
+		margin-top: 42px;
+		transition: all 0.4s ease-in-out;
+}
+}
+
+@media (min-width: 600px) {
+	.main-home {
+			background: url('../images/home.jpg') no-repeat;
+
+	}
+	h3{
+		font-size: 40px !important;
+	}
+
+
+	#home .btn {
+		background: #ffffff;
+		border: 2px solid #ffffff;
+		border-radius: 100px;
+		color: #444;
+		font-family: 'Merriweather', serif;
+		font-size: 10px !important;
+		font-weight: bold;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		padding: 13px 22px !important;
+		margin-top: 42px;
+		transition: all 0.4s ease-in-out;
+}
 }
