@@ -75,7 +75,7 @@ var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
   this.el = el;
   this.loopNum = 0;
-  this.period = parseInt(period, 5) || 1000;
+  this.period = parseInt(period, 5) || 100;
   this.txt = '';
   this.tick();
   this.isDeleting = false;
@@ -94,7 +94,7 @@ TxtRotate.prototype.tick = function() {
   this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
   var that = this;
-  var delta = 300 - Math.random() * 100;
+  var delta = 250 - Math.random() * 100;
 
   if (this.isDeleting) { delta /= 2; }
 
