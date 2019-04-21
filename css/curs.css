@@ -1,4 +1,4 @@
-#container {
+/* #container {
 	text-align: center;
 }
 
@@ -25,4 +25,27 @@
 	50% {
 		background-color: white;
 	}
+} */
+
+
+
+/* html,body {
+  font-family: 'Raleway', sans-serif;
+
+  font-size: 18px;
+
+  color: #ffffff !important;
 }
+
+h1,h2 {
+	  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  margin: 0.4em 0;
+	color: #ffffff !important;
+}
+h1 { font-size: 3.5em; }
+h2 {
+  color: #ffffff !important;
+  font-size: 2em;
+
+} */
