@@ -10,7 +10,7 @@ body {
     Typorgraphy
 -----------------------------------------*/
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.5px;
@@ -206,7 +206,7 @@ a:hover, a:active, a:focus {
 
 .navbar-default .navbar-brand {
   color: #ffffff;
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -323,7 +323,7 @@ a:hover, a:active, a:focus {
   border: 2px solid #ffffff;
   border-radius: 100px;
   color: #444;
-  font-family: 'Merriweather', serif;
+  font-family: 'Lora', serif;
   font-size: 10px !important;
   font-weight: bold;
   letter-spacing: 2px;
@@ -364,6 +364,10 @@ a:hover, a:active, a:focus {
   padding-right: 20px;
 }
 
+#about h3{
+  font-size: 20px !important;
+/* font-family: 'Merriweather', serif; */
+}
 /*---------------------------------------
    Gallery section
 -----------------------------------------*/
@@ -671,7 +675,9 @@ footer hr {
   margin-top: 62px;
   margin-bottom: 42px;
 }
-
+footer h3{
+  font-size: 20px !important;
+}
 footer .footer-copyright {
   padding-top: 12px;
 }
@@ -816,7 +822,7 @@ footer .footer-copyright {
     border: 2px solid #ffffff;
     border-radius: 100px;
     color: #444;
-    font-family: 'Merriweather', serif;
+    font-family: 'Lora', serif;
     font-size: 5px !important;
     font-weight: bold;
     letter-spacing: 2px;
@@ -853,7 +859,7 @@ and (orientation : portrait){
 		border: 2px solid #ffffff;
 		border-radius: 100px;
 		color: #444;
-		font-family: 'Merriweather', serif;
+		font-family: 'Lora', serif;
 		font-size: 10px !important;
 		font-weight: bold;
 		letter-spacing: 2px;
@@ -879,7 +885,7 @@ and (orientation : portrait){
 		border: 2px solid #ffffff;
 		border-radius: 100px;
 		color: #444;
-		font-family: 'Merriweather', serif;
+		font-family: 'Lora', serif;
 		font-size: 10px !important;
 		font-weight: bold;
 		letter-spacing: 2px;
